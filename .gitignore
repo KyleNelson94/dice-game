@@ -1,0 +1,7 @@
+# Remove from git commits. -.-
+.env
+*.yarn-lock*
+*.log
+LilLets.Web/frontend/build/
+.DS_Store
+*node_modules/*
