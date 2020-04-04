@@ -1,0 +1,46 @@
+%button {
+
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $grey-1;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover, &:active, &:focus {
+
+        font-weight: 600;
+        outline: none;
+    }
+
+    &:hover i {
+
+        margin-right: 20px;
+    }
+}
+
+button {
+    @extend button;
+}
+
+.btn {
+
+    &--new {
+        top: 45px;
+    }
+
+    &--scroll {
+        top: 403px;
+    }
+
+    &--hold {
+        top: 467px;
+    }
+}

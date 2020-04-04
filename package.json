@@ -8,7 +8,7 @@
 		"commit": "npx git-cz",
 		"watch": "webpack --watch",
 		"serve": "webpack --serve",
-		"dev": "webpack --mode development --watch & start-storybook -p 6006",
+		"dev": "webpack --mode development --watch",
 		"build": "webpack --mode production",
 		"build-storybook": "build-storybook"
 	},

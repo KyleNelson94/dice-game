@@ -97,25 +97,25 @@ eval("var scores, roundScore, activePlayer;\ninit();\ndocument.querySelector(\".
 
 /***/ }),
 
-/***/ "./src/sass/index.scss":
-/*!*****************************!*\
-  !*** ./src/sass/index.scss ***!
-  \*****************************/
+/***/ "./src/sass/styles.scss":
+/*!******************************!*\
+  !*** ./src/sass/styles.scss ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/index.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/sass/styles.scss?");
 
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./src/javascript/index.js ./src/sass/index.scss ***!
-  \*************************************************************/
+/*!**************************************************************!*\
+  !*** multi ./src/javascript/index.js ./src/sass/styles.scss ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/javascript/index.js */\"./src/javascript/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/sass/index.scss */\"./src/sass/index.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/javascript/index.js_./src/sass/index.scss?");
+eval("__webpack_require__(/*! ./src/javascript/index.js */\"./src/javascript/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/sass/styles.scss */\"./src/sass/styles.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/javascript/index.js_./src/sass/styles.scss?");
 
 /***/ })
 

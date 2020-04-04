@@ -14,7 +14,7 @@ const {
 
 module.exports = {
     mode: isDevelopment,
-    entry: ["./src/javascript/index.js", "./src/sass/index.scss"],
+    entry: ["./src/javascript/index.js", "./src/sass/styles.scss"],
     output: {
         path: path.resolve(__dirname, "build/javascript"),
         filename: "[name].js"
