@@ -1,6 +1,6 @@
 let scores, roundScore, activePlayer, gameActive;
-
 init();
+let prevDice;
 
 document.querySelector(".btn--roll").addEventListener("click", function () {
 
@@ -8,16 +8,21 @@ document.querySelector(".btn--roll").addEventListener("click", function () {
         let dice = Math.floor(Math.random() * 6) + 1; // randomise dice number
 		let diceDom = document.querySelector(".-dice");
 		diceDom.style.display = "block";
-		diceDom.src = `dice-${dice}.png`;
-
-		if (dice !== 1) {
+        diceDom.src = `dice-${dice}.png`;
+        
+        if (prevDice === 6 && prevDice === 6) {   
+            
+            scores[activePlayer] = 0;
+        } else if (dice !== 1) {
 			roundScore += dice;
 			document.querySelector(
 				"#current-" + activePlayer
 			).textContent = roundScore;
 		} else {
 			nextPlayer();
-		}
+        }
+        
+        prevDice = dice;
     }
 });
 
